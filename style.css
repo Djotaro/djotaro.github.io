@@ -1,0 +1,66 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+.container {
+  margin: 0px 166px;
+}
+.nav-top {
+  display: flex;
+  height: 98px;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  margin-right: 350px;
+  color: #000;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  text-decoration: none;
+}
+.logo:hover{
+    color: #7e99ec;
+}
+.ul {
+  list-style: none;
+  gap: 45px;
+  display: flex;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.link:hover{
+    color: #7e99ec;
+}
+.btn{
+    padding: 15px 25px;
+    border: 2px solid #7e99ec;
+    border-radius: 30px;
+    background: transparent;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    text-decoration: none;
+    color: #7e99ec ;
+    cursor: pointer;
+    transition: all 0.3 ease-in;
+}
+.btn:hover{
+    color: #ffffff;
+    background-color: #7e99ec;
+}
