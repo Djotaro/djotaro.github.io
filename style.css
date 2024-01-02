@@ -1,5 +1,6 @@
 body {
   font-family: "Inter", sans-serif;
+  background: linear-gradient(white, black);
 }
 .container {
   margin: 0px 166px;
@@ -21,8 +22,8 @@ body {
   line-height: 21px;
   text-decoration: none;
 }
-.logo:hover{
-    color: #7e99ec;
+.logo:hover {
+  color: #7e99ec;
 }
 .ul {
   list-style: none;
@@ -41,26 +42,45 @@ body {
   line-height: 21px;
 }
 
-.link:hover{
-    color: #7e99ec;
+.link:hover {
+  color: #7e99ec;
 }
-.btn{
-    padding: 15px 25px;
-    border: 2px solid #7e99ec;
-    border-radius: 30px;
-    background: transparent;
+.btn {
+  padding: 15px 25px;
+  border: 2px solid #7e99ec;
+  border-radius: 30px;
+  background: transparent;
 
-    font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 21px;
-    text-decoration: none;
-    color: #7e99ec ;
-    cursor: pointer;
-    transition: all 0.3 ease-in;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  text-decoration: none;
+  color: #7e99ec;
+  cursor: pointer;
+  transition: all 0.3 ease-in;
 }
-.btn:hover{
-    color: #ffffff;
-    background-color: #7e99ec;
+.btn:hover {
+  color: #ffffff;
+  background-color: #7e99ec;
+}
+.section1 {
+  display: flex;
+}
+.block1 {
+  margin-top: 50px;
+}
+h1 {
+}
+.span1 {
+  color: #f8f3f3;
+  font-size: 55px;
+
+}
+.btn {
+}
+.block2 {
+}
+.photo1 {
 }
